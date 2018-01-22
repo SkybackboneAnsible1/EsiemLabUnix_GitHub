@@ -1,5 +1,5 @@
 ---
-- hosts: shutdown
+- hosts: EsiemLabUnixInventory
   gather_facts: no
   tasks:
     - name: shutdown
